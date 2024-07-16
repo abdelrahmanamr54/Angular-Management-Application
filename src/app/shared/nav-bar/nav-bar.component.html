@@ -1,0 +1,19 @@
+<div class="first">
+  <div class="one">
+    
+      <div class="choose">
+          <ul>
+
+
+            <li  *ngIf="authService.currentUserValue?.role === 'Manager' || 'Admin'"><a routerLink="/tasks">Tasks</a></li>
+            <li  *ngIf="authService.currentUserValue?.role === 'Admin'"><a routerLink="/users">Create User</a></li>
+            <li  *ngIf="authService.currentUserValue?.role === 'Manager'"><a routerLink="/tasks/new">Create Task</a></li>
+          <li  ><a routerLink="/login">Log Out</a></li>
+
+          </ul>
+          <h1><i class="fa-solid fa-bars"></i></h1>
+      </div>
+
+  </div>
+
+ </div>

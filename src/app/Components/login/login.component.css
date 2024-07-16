@@ -1,0 +1,360 @@
+.table{
+
+  width: 900px;
+  height: 370px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  margin:  auto;
+  margin-top: 120px;
+}
+#tab2{
+   height: 400px;
+}
+
+.table .login h1{
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+   font-size: 17px;
+   /* font-weight: 100; */
+   font-weight: bold;
+   /* background-color :gray; */
+   padding-bottom: 8px;
+   padding-top: 8px;
+   outline: none;
+
+
+}
+.table .data{
+   display: flex;
+   padding-left: 150px;
+   padding-top: 20px;
+   text-align: center;
+}
+.table .data2{
+   display: flex;
+   padding-left: 156px;
+   padding-top: 22px;
+   text-align: center;
+}
+.table .data h2{
+   font-size: 17px;
+   padding-right: 20px;
+   margin-top: 7px;
+   font-weight: bold;
+}
+.table .data2 h2{
+   font-size: 17px;
+   padding-right: 20px;
+   margin-top: 7px;
+   font-weight: bold;
+}
+.table .data input{
+   background-color: transparent;
+   display: block;
+   width: 50%;
+
+   height: 40px;
+   border-radius: 5px;
+   box-sizing: border-box;
+
+   border: 1px  solid;
+   box-shadow: none;
+   border: 1px #d6d6d6 solid;
+   font-size: 17px;
+
+}
+.table .data2 input{
+   background-color: transparent;
+   display: block;
+   width: 53%;
+
+   height: 40px;
+   border-radius: 5px;
+   box-sizing: border-box;
+
+   border: 1px  solid;
+   box-shadow: none;
+   border: 1px #d6d6d6 solid;
+   font-size: 17px;
+
+}
+.table .data input:focus{
+   border: 2px #93beff solid;
+   box-shadow: 1px 1px 3px 3px #93beff;
+   outline: none;
+
+}
+.table .data2 input:focus{
+   border: 2px #93beff solid;
+   box-shadow: 1px 1px 3px 3px #93beff;
+   outline: none;
+
+}
+
+
+.table  button{
+  padding: 15px 40px;
+  margin-top: 40px;
+  background-color: #ed893d;
+  color: #fff;
+  border: 1px solid;
+
+  border-radius: 50px ;
+  margin-left: px;
+  box-sizing: border-box;
+width: 60%;
+
+}
+
+@media (max-width:600px) {
+  .one .choose h1{
+      display: block;
+
+  }
+  .table{
+      margin: 70px auto;
+      /* margin-top: 90px ; */
+      /* margin-left: 20px; */
+      width: 99%;
+      height: 450px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      text-align: center;
+   }
+   #tab2{
+       height: 600px;
+   }
+   .table .login{
+       /*  */
+
+
+
+
+   }
+   .table .login h1{
+       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   text-align: center;
+       font-size: 17px;
+       /* font-weight: 100; */
+       font-weight: bold;
+       /* background-color :gray; */
+       padding-bottom: 8px;
+       padding-top: 8px;
+       outline: none;
+
+
+   }
+   .table .data{
+       display: block;
+       padding-left: 5px;
+       padding-top: 20px;
+       text-align: left;
+   }
+   .table .data2{
+       display: block;
+       padding-left: 5px;
+       padding-top: 22px;
+       text-align: left;
+   }
+   .table .data h2{
+       font-size: 17px;
+       padding-right: 20px;
+       margin-top: 7px;
+       font-weight: bold;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+   .table .data2 h2{
+       font-size: 17px;
+       padding-right: 20px;
+       margin-top: 7px;
+       font-weight: bold;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+    .table .data input{
+       display: block;
+       width: 96%;
+       background-color: transparent;
+
+       height: 40px;
+       border-radius: 5px;
+       box-sizing: border-box;
+
+       border: 1px  solid;
+       box-shadow: none;
+       border: 1px #d6d6d6 solid;
+       font-size: 17px;
+
+   }
+   .table .data2 input{
+      background-color: transparent;
+       display: block;
+       width: 96%;
+       /* padding: 12px 0px; */
+       height: 40px;
+       border-radius: 5px;
+       box-sizing: border-box;
+       /* box-shadow: none; */
+       border: 1px  solid;
+       box-shadow: none;
+       border: 1px #d6d6d6 solid;
+       font-size: 17px;
+
+   }
+   .table .data input:focus{
+       border: 2px #93beff solid;
+       box-shadow: 1px 1px 3px 3px #93beff;
+       outline: none;
+
+   }
+   .table .login-btn{
+      padding: 3px;
+      display: block;
+      text-align: left;
+      margin-left: 40px;
+  }
+
+  .table  button{
+      padding: 15px 37px;
+      background-color: #ed893d;
+      color: #fff;
+      border: 1px solid;
+      border-radius: 50px ;
+      margin-left: 55px;
+      box-sizing: border-box;
+      margin-bottom: 8px;
+
+
+  }
+
+
+
+
+
+
+
+}
+
+@media (max-width:900px) {
+  .one .choose h1{
+      display: block;
+
+  }
+  .table{
+      margin: 70px auto;
+      /* margin-top: 90px ; */
+      /* margin-left: 20px; */
+      width: 99%;
+      height: 450px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      text-align: center;
+   }
+   #tab2{
+       height: 600px;
+   }
+
+   .table .login h1{
+       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+   text-align: center;
+       font-size: 17px;
+       /* font-weight: 100; */
+       font-weight: bold;
+
+       padding-bottom: 8px;
+       padding-top: 8px;
+       outline: none;
+
+
+   }
+   .table .data{
+       display: block;
+       padding-left: 5px;
+       padding-top: 20px;
+       text-align: left;
+   }
+   .table .data2{
+       display: block;
+       padding-left: 5px;
+       padding-top: 22px;
+       text-align: left;
+   }
+   .table .data h2{
+       font-size: 17px;
+       padding-right: 20px;
+       margin-top: 7px;
+       font-weight: bold;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+   .table .data2 h2{
+       font-size: 17px;
+       padding-right: 20px;
+       margin-top: 7px;
+       font-weight: bold;
+       margin-bottom: 20px;
+       text-align: center;
+   }
+    .table .data input{
+       display: block;
+       width: 96%;
+       background-color: transparent;
+
+       height: 40px;
+       border-radius: 5px;
+       box-sizing: border-box;
+
+       border: 1px  solid;
+       box-shadow: none;
+       border: 1px #d6d6d6 solid;
+       font-size: 17px;
+
+   }
+   .table .data2 input{
+      background-color: transparent;
+       display: block;
+       width: 96%;
+
+       height: 40px;
+       border-radius: 5px;
+       box-sizing: border-box;
+
+       border: 1px  solid;
+       box-shadow: none;
+       border: 1px #d6d6d6 solid;
+       font-size: 17px;
+
+   }
+   .table .data input:focus{
+       border: 2px #93beff solid;
+       box-shadow: 1px 1px 3px 3px #93beff;
+       outline: none;
+
+   }
+   .table .login-btn{
+      padding: 3px;
+      display: block;
+      text-align: left;
+      margin-left: 40px;
+  }
+
+  .table  button{
+      padding: 15px 37px;
+      background-color: #ed893d;
+      color: #fff;
+      border: 1px solid;
+      border-radius: 50px ;
+      margin-left: 110px;
+      box-sizing: border-box;
+      margin-bottom: 8px;
+
+
+  }
+
+
+
+
+
+
+
+}

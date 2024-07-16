@@ -1,0 +1,26 @@
+.task-list{
+  margin-top: 100px;
+}
+#delBtn{
+  width: 90%;
+}
+/* @media (max-width:900px) {
+  .task-list{
+    width: 90%;
+  }
+  #cart{
+    width: 100%;
+  }
+} */
+
+@media (min-width: 600px) {
+  .col-md-2 {
+    width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .col-md-2 {
+    width: 90%;
+  }
+}

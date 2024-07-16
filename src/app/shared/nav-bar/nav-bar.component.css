@@ -1,0 +1,54 @@
+.first{
+  width: 100%;
+  position: fixed;
+  z-index: 5555555;
+  background-color: #ed893d;
+  top: 0;
+  overflow: auto;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+  padding-bottom: px;
+
+
+}
+.one a{
+  text-decoration: none;
+  color: black;
+
+
+  transition: all 0.3s;
+}
+
+.one .logo h1{
+font-size: 27px;
+margin-left: 35px;
+/* margin: 25px; */
+
+}
+.one .logo span{
+  color: #ed893d;
+  font-size: 17px;
+}
+.one .choose ul{
+  /* margin-right: 50px; */
+  display:flex;
+  justify-content:space-around;
+  text-align: center;
+  list-style: none;
+}
+.one .choose ul li{
+
+  margin: 10px;
+}
+/* .one .choose ul li:hover{
+  color: #ed893d;
+} */
+.one .choose h1{
+  display: none;
+}
+.bars{
+  display:none;
+}

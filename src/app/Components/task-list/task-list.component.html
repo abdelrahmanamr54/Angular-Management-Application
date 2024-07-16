@@ -1,0 +1,43 @@
+
+<div class="task-list ">
+  <div class="row">
+    <div class="col-md-2" *ngFor=" let task of tasks">
+      <div class="card mt-3"  id="cart">
+        <div class="card-body">
+          <h2 class="card-title"> Title:{{task.title}}</h2>
+
+          <p class="card-text"> description:{{task.description }}</p>
+          <p class="card-text"> status:{{task.status }}</p>
+          <p class="card-text"> assignedUser:{{task.assignedUser}}</p>
+          <!-- <a  class="card-link"  mat-raised-button color="basic">Details</a>
+          <button  mat-raised-button color="warn">Complete</button> -->
+          <div *ngIf="authService.currentUserValue?.role === 'Manager'">
+            <button class="btn btn-warning btn-sm" *ngIf="task.status !== 'Done'" [routerLink]="['/task-edit', task.id]">Edit</button>
+            <button   class="btn btn-primary btn-sm m-1" > {{ task.needsDetails ? 'Needs Details' : 'Does Not Need Details' }}</button>
+          </div>
+          <div *ngIf="authService.currentUserValue?.role === 'Admin'">
+
+            <button class="btn btn-danger" id="delBtn" (click)="deleteTask(task.id)">Delete</button>
+          </div>
+          <div *ngIf="authService.currentUserValue?.username === task.assignedUser && task.status !== 'Done'">
+            <button class="btn btn-danger btn-sm" (click)="markTaskAsDone(task)" > Done</button>
+         
+            <button  class="btn btn-primary btn-sm m-1" (click)="toggleNeedsDetails(task)">
+              {{ task.needsDetails ? ' Not Needing Details' : ' Needing Details' }}
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-4 ">
+
+
+
+  <!-- <div>
+              <button  class="btn btn-primary btn-sm" (click)="toggleNeedsDetails(task)">
+                {{ task.needsDetails ? ' Not Needing Details' : ' n' }}
+              </button>
+            </div> -->

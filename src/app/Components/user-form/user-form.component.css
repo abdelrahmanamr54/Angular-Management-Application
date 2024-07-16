@@ -1,0 +1,51 @@
+.user-form {
+  margin-top: 90px;
+}
+
+button{
+  padding: 15px 40px;
+  margin-top: 90px;
+  background-color: #ed893d;
+  color: #fff;
+  border: 1px solid;
+
+  border-radius: 50px ;
+  margin-left: 250px;
+  align-items: center;
+  box-sizing: border-box;
+width: 60%;
+
+}
+@media (max-width:600px) {
+  button{
+    padding: 15px 40px;
+    margin-top: 40px;
+    background-color: #ed893d;
+    color: #fff;
+    border: 1px solid;
+
+    border-radius: 50px ;
+    margin-left: 22px;
+    align-items: center;
+    box-sizing: border-box;
+  width: 90%;
+
+  }
+
+}
+@media (max-width:900px) {
+  button{
+    padding: 15px 40px;
+    margin-top: 40px;
+    background-color: #ed893d;
+    color: #fff;
+    border: 1px solid;
+
+    border-radius: 50px ;
+    margin-left: 34px;
+    align-items: center;
+    box-sizing: border-box;
+  width: 90%;
+
+  }
+}

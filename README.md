@@ -10,8 +10,9 @@ Task Management (CRUD operations)
 Role-based Access Control
 Responsive Design
 Prerequisites
-Node.js (v14.x or later)
-Angular CLI (v12.x or later)
+Node.js 
+Angular CLI 
+
 Installation
 Clone the repository:
 
@@ -31,8 +32,12 @@ Open your browser and navigate to:
 
 
 http://localhost:4200
+
+
+
 Usage
-Default Admin User
+Default Admin User:
+
 Username: admin
 Password: admin
 Login

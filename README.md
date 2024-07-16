@@ -15,25 +15,21 @@ Angular CLI (v12.x or later)
 Installation
 Clone the repository:
 
-sh
-Copy code
+
 git clone https://github.com/your-username/angular-task-management.git
 cd angular-task-management
 Install dependencies:
 
-sh
-Copy code
+
 npm install
 Running the Application
 Start the development server:
 
-sh
-Copy code
+
 ng serve
 Open your browser and navigate to:
 
-arduino
-Copy code
+
 http://localhost:4200
 Usage
 Default Admin User

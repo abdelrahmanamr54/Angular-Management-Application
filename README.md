@@ -39,7 +39,11 @@ Usage
 Default Admin User:
 
 Username: admin
+
+
 Password: admin
+
+
 Login
 Navigate to the login page.
 Enter your credentials (e.g., for admin: username admin, password admin).

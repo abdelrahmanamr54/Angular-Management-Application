@@ -17,17 +17,24 @@ Installation
 Clone the repository:
 
 
-git clone https://github.com/your-username/angular-task-management.git
+git clone https://github.com/abdelrahmanamr54/angular-task-management.git
 cd angular-task-management
 Install dependencies:
 
 
 npm install
+
+
 Running the Application
+
+
 Start the development server:
 
 
 ng serve
+
+
+
 Open your browser and navigate to:
 
 

@@ -9,7 +9,7 @@
       <h2>User Name</h2>
       <input type="text" class="form-control" id="username" [(ngModel)]="username" formControlName="username" name="username" required >
       <div *ngIf="loginForm.get('username')?.errors && (loginForm.get('username')?.touched) || (loginForm.get('username')?.value.Length>0)" class="text-danger">
-        <div *ngIf="loginForm.get('username')?.getError('required')">Password is required.</div>
+        <div *ngIf="loginForm.get('username')?.getError('required')"> UserName is required.</div>
 
       </div>
   </div>

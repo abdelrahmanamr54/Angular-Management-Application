@@ -27,6 +27,10 @@ export class AuthService {
   const user = users.find(u => u.username === username && u.password === password );
   if (user) {
     localStorage.setItem('currentUser', JSON.stringify(user));
+    this.currentUserSubject.next(user);
+
+ 
+   this.route.navigate(['/tasks']);
     return true;
   }
   return false;

@@ -17,7 +17,7 @@ Installation
 Clone the repository:
 
 
-git clone https://github.com/your-username/angular-task-management.git
+git clone https://github.com/your-username/angular-task-management](https://github.com/abdelrahmanamr54/Angular-Management-Application.git
 cd angular-task-management
 Install dependencies:
 
@@ -34,8 +34,10 @@ Open your browser and navigate to:
 http://localhost:4200
 
 
-
 Usage
+You can use the application directly at this link: https://first-angular2023.web.app/
+
+Example Users
 Default Admin User:
 
 Username: admin
@@ -49,11 +51,18 @@ Navigate to the login page.
 Enter your credentials (e.g., for admin: username admin, password admin).
 Click the "Login" button.
 User Management (Admin only)
+
+
 After logging in as an Admin, navigate to the "Create User" page.
 Fill in the user details (username, password, role).
 Click the "Create User" button.
 A success alert will appear if the user is created successfully.
+
+
+
+
 Task Management
+
 Create Task (Manager only):
 
 Navigate to the "Create Task" page.

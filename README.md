@@ -36,6 +36,14 @@ http://localhost:4200
 
 
 Usage
+
+
+You can use the application directly at this link:https://first-angular2023.web.app/
+
+Example Users
+
+
+
 Default Admin User:
 
 Username: admin
